@@ -2,7 +2,7 @@
 layout: post
 title: "Introduction to debugging using WinDbg. Part 1 (v0.1.0)"
 date: 2021-06-04 01:30:50 +0300
-categories: debug windbg .net
+categories:
 ---
 
 
@@ -227,7 +227,7 @@ categories: debug windbg .net
                 </td>
                 <td>
                     <p>
-                        Basic debugger commands.
+                        Basic debugger commands
                     </p>
                 </td>
                 <td>
@@ -481,7 +481,7 @@ categories: debug windbg .net
         </thead>
         <tbody>
             <tr>
-                <td>soswow64</td>
+                <td><a href="https://github.com/poizan42/soswow64">soswow64</a></td>
                 <td>Y</td>
                 <td>This extension gets around this by hooking/patching functions in dbgeng.dll so that SoS thinks it's working with a 32-bit dump.</td>
             </tr>
